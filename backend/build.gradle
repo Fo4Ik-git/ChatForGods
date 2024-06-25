@@ -34,3 +34,9 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+
+//I need custom name for jar file with version and plain name
+jar {
+    archiveFileName.set("chat-for-gods.jar")
+}
